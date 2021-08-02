@@ -9,8 +9,8 @@ const Form = ({inputColor, setInputColor, boxColors, setBoxColors}) => {
     e.preventDefault()
     setBoxColors([
       {
-        color: '#'+inputColor,
-        text: '#'+inputColor,
+        color: '#'+inputColor.toUpperCase(),
+        text: '#'+inputColor.toUpperCase(),
         key: Math.random()*1000
       },...boxColors,
     ])
