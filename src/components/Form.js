@@ -7,12 +7,11 @@ const Form = ({inputColor, setInputColor, boxColors, setBoxColors}) => {
   const submitColor = (e) => {
     e.preventDefault()
     setBoxColors([
-      ...boxColors,
       {
         color: '#'+inputColor,
         text: '#'+inputColor,
         key: Math.random()*1000
-      },
+      },...boxColors,
     ])
     setInputColor('')
   }
