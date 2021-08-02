@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+.form {
+  background-color: #81ABD3;
+  padding: 10px;
+}
+.form label {
+  font-weight: bold;
+  padding-right: 10px;
+}
+.form input {
+  margin-right: 10px;
+}
+.form button {
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.container {
+  padding: 0 5em;
+}
+.container .box-container .box-list .box-list-container {
+  width: 150px;
+  height: 150px;
+  padding-right: 2em;
+  padding-top: 2em;
+}
+.container .box-container .box-list .box-list-container .box {
+  width: 125px;
+  height: 100px;
+}
+
+.delete {
+  float: right;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}/*# sourceMappingURL=myStyle.css.map */
